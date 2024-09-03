@@ -1,0 +1,145 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  font-family: 'Kanit', sans-serif;
+  background: #ffffff;
+  color: #34495e;
+}
+
+#left {    
+  text-align: left;  
+}  
+#center {    
+text-align: center;  
+}  
+#right{    
+text-align: right;  
+}
+
+.button { 
+  border: none;
+  color: white;
+  padding: 1% 2%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.downloadBT {
+  margin-top: 1%;
+  background-color: white;
+  color: #202020;
+  border: 2px solid #3885FF;
+  border-radius: 5px;
+  font-family: 'Kanit', sans-serif;
+}
+.downloadBT:hover {
+  background-color: #D9E5FF;
+  color: #202020;
+}
+
+.selectFile {
+  background-color: #3885FF;
+  font-size: 20px;
+  color: white;
+  border-radius: 5px;
+  font-family: 'Kanit', sans-serif;
+}
+.selectFile:hover {
+  background-color: #2364cc;
+  font-size: 20px;
+  color: white;
+}
+
+.input { 
+  margin-top: 2%;
+  margin-right: 10%;
+  margin-left: 10%;
+  padding: 11%;
+  font-size: 20px;
+  vertical-align: middle;
+  text-align: center;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.drop {
+  background-color: #F2F6FF;
+  color: #202020;
+  border: 1.5px dashed #0055FF;
+  border-radius: 12px;
+}
+
+.drop:hover {
+  background-color: #D9E5FF;
+  color: #202020;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #a73b24;
+  color: white;
+}
+
+ul div {
+  float: left;
+  text-align: center; 
+  padding-top: 0.2%;
+  padding-bottom: 0.2%;
+  padding-left: 0.2%;
+}
+
+.text-container {
+  margin-top: 1.1%;
+  margin-bottom: 0.2%;
+  margin-left: -2%;
+}
+
+.img_box{
+  margin-top: 0.2%;
+  margin-bottom: 0.2%;
+  margin-left: -2%;
+}
