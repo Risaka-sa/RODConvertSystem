@@ -44,7 +44,7 @@ body {
 }
 
 #left {    
-  text-align: left;  
+text-align: left;  
 }  
 #center {    
 text-align: center;  
@@ -94,7 +94,7 @@ text-align: right;
 
 .input { 
   margin-top: 2%;
-  margin-right: 10%;
+  margin-right: 40%;
   margin-left: 10%;
   padding: 11%;
   font-size: 20px;
