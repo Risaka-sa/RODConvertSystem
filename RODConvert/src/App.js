@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Dropzone from "./Dropzone";
+import FileTableList from "./FileTableList";
 import axios from 'axios';
 import './App.css';
 
@@ -14,13 +15,10 @@ function App() {
 
       <div>
         <Dropzone />
-        <div class="input drop">asdasd</div>
-        
-        
-        <center><button class="button downloadBT">
+      </div>
+      <center><button class="button downloadBT">
           แปลงไฟล์
         </button></center>
-      </div>
     </body>
   );
 }
