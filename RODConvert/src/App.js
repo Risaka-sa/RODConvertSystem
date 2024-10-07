@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import Dropzone from "./Dropzone";
-import FileTableList from "./FileTableList";
 import axios from 'axios';
 import './App.css';
 
 function App() {
+  
 
   return (
     <body>
@@ -16,9 +16,6 @@ function App() {
       <div>
         <Dropzone />
       </div>
-      <center><button class="button downloadBT">
-          แปลงไฟล์
-        </button></center>
     </body>
   );
 }
