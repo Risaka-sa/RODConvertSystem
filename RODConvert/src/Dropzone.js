@@ -31,6 +31,7 @@ function Dropzone({ open }) {
   ));
 
   async function download() {
+    try{
       const response = await axios({
         url: 'http://localhost:8000/download', // Your FastAPI download endpoint
         method: 'POST',
@@ -45,6 +46,10 @@ function Dropzone({ open }) {
       document.body.appendChild(link);
       link.click();
       link.remove();  // Remove the link after triggering the download
+    }
+    catch(err) {
+      console.log(err);
+    }
   };
 
   return (
